@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">妙兜SDK测试</string>
+
+    <string name="agt_num">服务端认证编号</string>
+    <string name="app_key">App Key</string>
+    <string name="pid">硬件ID(pid)</string>
+
+    <string name="input_empty_error">此处不能为空</string>
+
+    <string name="open_door">开门</string>
+    <string name="close">关闭</string>
+
+    <string name="no_permissions">没有授权必要权限</string>
+    <string name="request_error">无法获取开门数据，请检查服务端认证编号等是否正确。</string>
+</resources>
