@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 // SDK 版本
-#define SDK_VERSION  @"3.0.0"
+#define SDK_VERSION  @"3.2.0"
 
 typedef NS_ENUM(NSInteger, ErrorType){
     ERR_SUCCESS                     = 1,      // 成功
