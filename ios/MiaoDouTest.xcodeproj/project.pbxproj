@@ -342,7 +342,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzblzx.sdk.MiaoDouTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanglb.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +364,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzblzx.sdk.MiaoDouTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanglb.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
