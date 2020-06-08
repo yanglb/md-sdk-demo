@@ -58,6 +58,7 @@
     
     if (textField == self.pid) {
         [self.pid resignFirstResponder];
+        [self openDoorClick:nil];
         return NO;
     }
     
@@ -85,6 +86,7 @@
               if (![@"0" isEqualToString:data[@"code"]]) {
                   [self alert:data[@"msg"]];
                   [self.progressView stopAnimating];
+                  [self updateUI:NO];
                   return;
               }
               
