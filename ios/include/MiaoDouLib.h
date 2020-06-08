@@ -6,10 +6,13 @@
 //  Copyright © 2019 App. All rights reserved.
 //
 
+#ifndef MiaoDouLib_h
+#define MiaoDouLib_h
+
 #import <Foundation/Foundation.h>
 
 // SDK 版本
-#define SDK_VERSION  @"3.2.0"
+#define SDK_VERSION  @"3.3.0"
 
 typedef NS_ENUM(NSInteger, ErrorType){
     ERR_SUCCESS                     = 1,      // 成功
@@ -103,3 +106,5 @@ typedef NS_ENUM(NSInteger, ErrorType){
  */
 +(NSString*) errorMsg:(ErrorType) error;
 @end
+
+#endif
